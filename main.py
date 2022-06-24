@@ -21,6 +21,7 @@ def gogo():
   while True:
     if(pchome()==1):
         lineNotifyMessage(token, '有貨了 快')
+	time.sleep(60)
         break 
     time.sleep(1)
 
